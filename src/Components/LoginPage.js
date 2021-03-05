@@ -4,6 +4,8 @@ import SportsEsportsIcon from "@material-ui/icons/SportsEsports";
 import Ellie from "./Assests/Ellie.jpg";
 import Crash from "./Assests/Crash.jpg";
 import AddIcon from "@material-ui/icons/Add";
+import "../App.css";
+import { Link } from "react-router-dom";
 export default function LoginPage() {
   return (
     <Login>
@@ -12,15 +14,21 @@ export default function LoginPage() {
       <ControllerIcon />
       <div>
         <div>
-          <AddIcon className="Icon" />
+          <Link to="/Home">
+            <AddIcon className="Icon" />
+          </Link>
           <h2>Create User</h2>
         </div>
         <div>
-          <img src={Ellie} alt="" />
+          <Link to="/Home">
+            <img src={Ellie} alt="" />
+          </Link>
           <h2>Omar</h2>
         </div>
         <div>
-          <img src={Crash} alt="" />
+          <Link to="/Home">
+            <img src={Crash} alt="" />
+          </Link>
           <h2>Dona</h2>
         </div>
       </div>
@@ -59,15 +67,20 @@ const Login = styled.div`
     margin-left: auto;
     margin-right: auto;
     object-fit: cover;
+    align-items: center;
+    color: white;
 
-    &::hover {
-      padding: 500px;
+    &:hover {
+      width: 120px;
+      height: 120px;
+      transition: 1s all ease-in-out;
     }
   }
 
   h1,
   h2 {
     text-align: center;
+    font-weight: 400;
   }
 
   p {
