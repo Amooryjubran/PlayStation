@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import Games from "./Games";
+import Header from "./Header";
+import MustSee from "./MustSee";
 import Navbar from "./Navbar";
 
 export default function HomePage() {
@@ -8,6 +10,8 @@ export default function HomePage() {
     <Home>
       <Navbar />
       <Games />
+      <Header />
+      <MustSee />
     </Home>
   );
 }

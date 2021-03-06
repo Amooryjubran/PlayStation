@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import SearchIcon from "@material-ui/icons/Search";
 import SettingsIcon from "@material-ui/icons/Settings";
@@ -5,7 +6,14 @@ import Ellie from "../Assests/Ellie.jpg";
 
 export default function Navbar() {
   const currDate = new Date().toLocaleTimeString();
+  const [time, setTime] = useState(Date.now());
 
+  useEffect(() => {
+    const interval = setInterval(() => setTime(Date.now()), 1000);
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
   return (
     <>
       <Nav className="Navs">
