@@ -13,7 +13,6 @@ export default function MustSee() {
 }
 
 const MustPlay = styled.div`
-  /* margin-top: 100px; */
   max-width: 80%;
   margin: 0 auto;
   color: white;
@@ -26,8 +25,8 @@ const MustPlay = styled.div`
     width: 200px;
     cursor: pointer;
     object-fit: cover;
-    @media (max-width: 1400px) {
-      width: 160px;
+    @media (max-width: 1450px) {
+      width: 180px;
     }
   }
 `;

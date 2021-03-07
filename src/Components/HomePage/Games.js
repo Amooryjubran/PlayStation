@@ -13,7 +13,7 @@ export default function Games() {
   return (
     <GamesIcons>
       <div className="container">
-        <GameNav className="game-nav">
+        <GameNav>
           <div className="game active">
             <Arrow />
           </div>
@@ -69,7 +69,7 @@ const GamesIcons = styled.div`
 
 const GameNav = styled.section`
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `;
 const GameLogos = styled.img`
   transform: scale(1.5);

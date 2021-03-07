@@ -19,6 +19,7 @@ export default function HomePage() {
 const Home = styled.div`
   background-image: url("https://images6.alphacoders.com/777/thumb-1920-777426.jpg");
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
-  height: 100vh;
+  height: 110vh;
 `;

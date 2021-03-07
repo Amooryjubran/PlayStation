@@ -60,7 +60,4 @@ export const MustSeeGames = [
     img:
       "https://steamcdn-a.akamaihd.net/steam/apps/976310/header.jpg?t=1606335035",
   },
-  {
-    img: "https://pbs.twimg.com/media/ElB-W7mX0AAwThg.jpg",
-  },
 ];
