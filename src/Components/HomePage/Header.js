@@ -20,12 +20,20 @@ export default function Header() {
       return checkGame(newIndex);
     });
   };
+
+  const PrevGame = () => {
+    setIndex((index) => {
+      let newIndex = index - 1;
+      return checkGame(newIndex);
+    });
+  };
   return (
     <>
       <Headers>
         <HeadersContainer>
           <h1>{title}</h1>
           <p>{subTitle}</p>
+          <HeadersBtn onClick={PrevGame}>Previous</HeadersBtn>
           <HeadersBtn onClick={nextGame}>Next</HeadersBtn>
         </HeadersContainer>
         <HeadersImg src={gameImage} alt="" />
