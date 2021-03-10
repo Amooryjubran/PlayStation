@@ -4,7 +4,6 @@ import Games from "./Games";
 import Header from "./Header";
 import MustSee from "./MustSee";
 import Navbar from "./Navbar";
-
 export default function HomePage() {
   return (
     <Home>
@@ -19,7 +18,6 @@ export default function HomePage() {
 const Home = styled.div`
   background-image: url("https://images6.alphacoders.com/777/thumb-1920-777426.jpg");
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
   height: 110vh;
 `;

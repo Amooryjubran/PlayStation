@@ -6,6 +6,7 @@ import Ellie from "../Assests/Ellie.jpg";
 
 export default function Navbar() {
   const currDate = new Date().toLocaleTimeString();
+
   const [time, setTime] = useState(Date.now());
 
   useEffect(() => {
@@ -14,6 +15,7 @@ export default function Navbar() {
       clearInterval(interval);
     };
   }, []);
+
   return (
     <>
       <Nav className="Navs">

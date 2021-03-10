@@ -1,21 +1,36 @@
-import React from "react";
-import TLOU2 from "../Assests/TLOU2.png";
+import React, { useState } from "react";
 import styled from "styled-components";
-
+import { GamesHeader } from "../Data";
 export default function Header() {
+  const [index, setIndex] = useState(0);
+  const { title, subTitle, gameImage } = GamesHeader[index];
+
+  const checkGame = (game) => {
+    if (game > GamesHeader.length - 1) {
+      return 0;
+    }
+    if (game < 0) {
+      return GamesHeader.length - 1;
+    }
+    return game;
+  };
+  const nextGame = () => {
+    setIndex((index) => {
+      let newIndex = index + 1;
+      return checkGame(newIndex);
+    });
+  };
   return (
-    <Headers>
-      <HeadersContainer>
-        <h1> Ready For A New Advunture ?</h1>
-        <p>
-          {" "}
-          With The Last Of Us Part ll you will confront the devastating physical
-          and emotional repercussions of Ellie's actions.
-        </p>
-        <HeadersBtn>Play</HeadersBtn>
-      </HeadersContainer>
-      <HeadersImg src={TLOU2} alt="" />
-    </Headers>
+    <>
+      <Headers>
+        <HeadersContainer>
+          <h1>{title}</h1>
+          <p>{subTitle}</p>
+          <HeadersBtn onClick={nextGame}>Next</HeadersBtn>
+        </HeadersContainer>
+        <HeadersImg src={gameImage} alt="" />
+      </Headers>
+    </>
   );
 }
 
@@ -55,8 +70,9 @@ const HeadersBtn = styled.button`
 const HeadersImg = styled.img`
   width: 100%;
   cursor: pointer;
-
+  height: 250px;
   max-width: 250px;
+  object-fit: cover;
 
   &:hover {
     border: 0.1px solid #fff;

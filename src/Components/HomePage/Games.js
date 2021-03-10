@@ -11,16 +11,18 @@ export default function Games() {
     </>
   ));
   return (
-    <GamesIcons>
-      <div className="container">
-        <GameNav>
-          <div className="game active">
-            <Arrow />
-          </div>
-          {GameImages}
-        </GameNav>
-      </div>
-    </GamesIcons>
+    <>
+      <GamesIcons>
+        <div className="container">
+          <GameNav>
+            <div className="game active">
+              <Arrow />
+            </div>
+            {GameImages}
+          </GameNav>
+        </div>
+      </GamesIcons>
+    </>
   );
 }
 

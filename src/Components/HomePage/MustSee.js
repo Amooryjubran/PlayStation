@@ -4,6 +4,7 @@ import { MustSeeGames } from "../Data";
 
 export default function MustSee() {
   const Games = MustSeeGames.map((game) => <img src={game.img} alt="Icons" />);
+
   return (
     <MustPlay>
       <h1>Must See</h1>
@@ -25,8 +26,8 @@ const MustPlay = styled.div`
     width: 200px;
     cursor: pointer;
     object-fit: cover;
-    @media (max-width: 1450px) {
-      width: 180px;
+    @media (max-width: 1400px) {
+      width: 160px;
     }
   }
 `;
