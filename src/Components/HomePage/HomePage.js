@@ -7,10 +7,10 @@ import Navbar from "./Navbar";
 import { GamesHeader } from "../Data";
 export default function HomePage() {
   const [index, setIndex] = useState(0);
-  const { title, subTitle, gameImage } = GamesHeader[index];
+  const { title, subTitle, gameImage, backgroundImage } = GamesHeader[index];
 
   return (
-    <Home>
+    <Home style={{ backgroundImage: "url(" + backgroundImage + ")" }}>
       <Navbar />
       <Games setIndex={setIndex} index={index} />
       <Header title={title} subTitle={subTitle} gameImage={gameImage} />
@@ -20,7 +20,6 @@ export default function HomePage() {
 }
 
 const Home = styled.div`
-  background-image: url("https://images6.alphacoders.com/777/thumb-1920-777426.jpg");
   background-position: center;
   background-size: cover;
   height: 110vh;

@@ -1,8 +1,7 @@
 export const GamesHeader = [
   {
     id: 1,
-    img:
-      "https://progameguides.com/wp-content/uploads/2019/12/last-of-us-desktop-wallpaper001-450x253.jpg",
+    img: "https://avatarfiles.alphacoders.com/143/143504.jpg",
     title: "The Last Of Us ll",
     subTitle:
       " Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming.",
@@ -20,8 +19,7 @@ export const GamesHeader = [
       "n the latest adventure in the Marvel’s Spider-Man universe, teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man.",
     gameImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqSKIpXvoyE-FytgrUVkW-i8JK3VlJKmX6-Q&usqp=CAU",
-    backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+    backgroundImage: "https://wallpapercave.com/wp/wp7076891.png",
   },
   {
     id: 3,
@@ -33,7 +31,7 @@ export const GamesHeader = [
     gameImage:
       "https://image.api.playstation.com/vulcan/img/rnd/202011/1717/GemRaOZaCMhGxQ9dRhnQQyT5.png",
     backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+      "https://www.psu.com/wp/wp-content/uploads/2020/10/demons-souls-remake-ps5-wallpapers-01.png",
   },
 
   {
@@ -47,19 +45,20 @@ export const GamesHeader = [
     gameImage:
       "https://gaminglyfe.com/wp-content/uploads/2020/06/Resident-Evil-Village.png",
     backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+      "https://image7.uhdpaper.com/wallpaper-hd/alcina-dimitrescu-resident-evil-village-uhdpaper.com-hd-7.3033.jpg",
   },
 
   {
     id: 5,
-    img: "https://twinfinite.net/wp-content/uploads/2020/09/codblopscwfeat.jpg",
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBOArK8UeXBai7Rz47vOPF4GegVZHu96-mVw&usqp=CAU",
     title: "Call of Duty®: Black Ops Cold War",
     subTitle:
       "The iconic Black Ops series is back with Call of Duty: Black Ops Cold War - the direct sequel to the fan-favorite Call of Duty: Black Ops",
     gameImage:
       "https://image.api.playstation.com/vulcan/ap/rnd/202008/1906/A7Z86MBBCnD9k5jWdSL2nuG8.png",
     backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+      "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/02/BOCW_Season-2_Hero_X1_Wire_1920x1080.jpg?fit=1920%2C1080",
   },
 
   {
@@ -72,7 +71,7 @@ export const GamesHeader = [
     gameImage:
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg",
     backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+      "https://www.psu.com/wp/wp-content/uploads/2018/04/god-of-war-theme.jpg",
   },
 
   {
@@ -84,8 +83,7 @@ export const GamesHeader = [
       "Set three years after the events of Uncharted 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune-hunting behind. ",
     gameImage:
       "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
-    backgroundImage:
-      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
+    backgroundImage: "https://wallpapercave.com/wp/wp3881739.jpg",
   },
 ];
 
