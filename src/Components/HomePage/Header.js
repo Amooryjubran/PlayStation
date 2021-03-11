@@ -1,40 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { GamesHeader } from "../Data";
-export default function Header() {
-  const [index, setIndex] = useState(0);
-  const { title, subTitle, gameImage } = GamesHeader[index];
-
-  const checkGame = (game) => {
-    if (game > GamesHeader.length - 1) {
-      return 0;
-    }
-    if (game < 0) {
-      return GamesHeader.length - 1;
-    }
-    return game;
-  };
-  const nextGame = () => {
-    setIndex((index) => {
-      let newIndex = index + 1;
-      return checkGame(newIndex);
-    });
-  };
-
-  const PrevGame = () => {
-    setIndex((index) => {
-      let newIndex = index - 1;
-      return checkGame(newIndex);
-    });
-  };
+export default function Header({ title, subTitle, gameImage }) {
   return (
     <>
       <Headers>
         <HeadersContainer>
           <h1>{title}</h1>
           <p>{subTitle}</p>
-          <HeadersBtn onClick={PrevGame}>Previous</HeadersBtn>
-          <HeadersBtn onClick={nextGame}>Next</HeadersBtn>
+          <HeadersBtn>Play</HeadersBtn>
         </HeadersContainer>
         <HeadersImg src={gameImage} alt="" />
       </Headers>

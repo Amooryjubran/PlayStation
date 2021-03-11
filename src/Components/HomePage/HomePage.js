@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import Games from "./Games";
 import Header from "./Header";
 import MustSee from "./MustSee";
 import Navbar from "./Navbar";
+import { GamesHeader } from "../Data";
 export default function HomePage() {
+  const [index, setIndex] = useState(0);
+  const { title, subTitle, gameImage } = GamesHeader[index];
+
   return (
     <Home>
       <Navbar />
-      <Games />
-      <Header />
+      <Games setIndex={setIndex} index={index} />
+      <Header title={title} subTitle={subTitle} gameImage={gameImage} />
       <MustSee />
     </Home>
   );

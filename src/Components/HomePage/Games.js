@@ -2,11 +2,17 @@ import React from "react";
 import styled from "styled-components";
 import { GamesHeader } from "../Data";
 import NearMeIcon from "@material-ui/icons/NearMe";
-export default function Games() {
-  const GameImages = GamesHeader.map((game) => (
+
+export default function Games({ setIndex }) {
+  const GameImages = GamesHeader.map((game, index) => (
     <>
       <div className="game">
-        <GameLogos key={game.id} src={game.img} alt="Icons" />
+        <GameLogos
+          onClick={() => setIndex(index)}
+          key={game.id}
+          src={game.img}
+          alt="Icons"
+        />
       </div>
     </>
   ));
@@ -78,7 +84,6 @@ const GameLogos = styled.img`
   width: 100px;
   object-fit: contain;
   height: 100px;
-  background: url("https://progameguides.com/wp-content/uploads/2019/12/last-of-us-desktop-wallpaper001-450x253.jpg");
 `;
 
 const Arrow = styled(NearMeIcon)({

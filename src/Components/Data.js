@@ -20,6 +20,8 @@ export const GamesHeader = [
       "n the latest adventure in the Marvel’s Spider-Man universe, teenager Miles Morales is adjusting to his new home while following in the footsteps of his mentor, Peter Parker, as a new Spider-Man.",
     gameImage:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqSKIpXvoyE-FytgrUVkW-i8JK3VlJKmX6-Q&usqp=CAU",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
   {
     id: 3,
@@ -30,6 +32,8 @@ export const GamesHeader = [
       "Entirely rebuilt from the ground up, this remake invites you to experience the unsettling story and ruthless combat of Demon’s Souls™",
     gameImage:
       "https://image.api.playstation.com/vulcan/img/rnd/202011/1717/GemRaOZaCMhGxQ9dRhnQQyT5.png",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
 
   {
@@ -42,6 +46,8 @@ export const GamesHeader = [
       "Experience survival horror like never before in the eighth major installment in the storied Resident Evil franchise - Resident Evil Village",
     gameImage:
       "https://gaminglyfe.com/wp-content/uploads/2020/06/Resident-Evil-Village.png",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
 
   {
@@ -52,17 +58,21 @@ export const GamesHeader = [
       "The iconic Black Ops series is back with Call of Duty: Black Ops Cold War - the direct sequel to the fan-favorite Call of Duty: Black Ops",
     gameImage:
       "https://image.api.playstation.com/vulcan/ap/rnd/202008/1906/A7Z86MBBCnD9k5jWdSL2nuG8.png",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
 
   {
     id: 6,
     img:
-      "https://static.wikia.nocookie.net/godofwar/images/a/a7/God_of_War_4_cover.jpg/revision/latest/top-crop/width/360/height/360?cb=20170614023116",
+      "https://image.api.playstation.com/vulcan/img/rnd/202008/2617/A3hS7JsXkt8dwt5niN7Vp0g6.png",
     title: "God of War",
     subTitle:
       "Discover the deeply personal reasons why Kratos and Atreus set out into the brutal Norse wilds - and the life-threatening dangers they meet on the way. ",
     gameImage:
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/God_of_War_4_cover.jpg/220px-God_of_War_4_cover.jpg",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
 
   {
@@ -74,6 +84,8 @@ export const GamesHeader = [
       "Set three years after the events of Uncharted 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune-hunting behind. ",
     gameImage:
       "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+    backgroundImage:
+      "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
   },
 ];
 
