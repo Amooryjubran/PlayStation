@@ -1,13 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
-export default function Header({ title, subTitle, gameImage }) {
+import Popup from "./Popup";
+export default function Header({
+  title,
+  subTitle,
+  gameImage,
+  img,
+  popupMessage,
+}) {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const openPopup = () => {
+    setShowPopup((prev) => !prev);
+  };
+
   return (
     <>
       <Headers>
         <HeadersContainer>
           <h1>{title}</h1>
           <p>{subTitle}</p>
-          <HeadersBtn>Play</HeadersBtn>
+          <ButtonContainer>
+            <HeadersBtn onClick={openPopup}>Play</HeadersBtn>
+            <Popup
+              showPopup={showPopup}
+              setShowPopup={setShowPopup}
+              title={title}
+              img={img}
+              popupMessage={popupMessage}
+            />
+          </ButtonContainer>
         </HeadersContainer>
         <HeadersImg src={gameImage} alt="" />
       </Headers>
@@ -62,4 +84,10 @@ const HeadersImg = styled.img`
 `;
 const HeadersContainer = styled.div`
   align-self: center;
+`;
+
+const ButtonContainer = styled.div`
+  display: flex;
+  align-items: center;
+  float: left;
 `;
