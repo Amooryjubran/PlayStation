@@ -51,7 +51,7 @@ export const GamesHeader = [
     gameImage:
       "https://gaminglyfe.com/wp-content/uploads/2020/06/Resident-Evil-Village.png",
     backgroundImage:
-      "https://image7.uhdpaper.com/wallpaper-hd/alcina-dimitrescu-resident-evil-village-uhdpaper.com-hd-7.3033.jpg",
+      "https://i.ibb.co/LvpFRCG/alcina-dimitrescu-resident-evil-village-uhdpaper-com-hd-7-3033.jpg",
     popupMessage:
       "Resident Evil Village is an upcoming survival horror game developed and published by Capcom. It will be the tenth major installment in the Resident Evil series, and the sequel to Resident Evil 7: Biohazard.",
   },
@@ -124,5 +124,31 @@ export const MustSeeGames = [
   },
   {
     img: "https://pbs.twimg.com/media/ElB-W7mX0AAwThg.jpg",
+  },
+];
+
+export const MustPlayGames = [
+  {
+    img:
+      "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Death_Stranding.jpg/220px-Death_Stranding.jpg",
+  },
+  {
+    img:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2zW6qiumNky4S2Nzu91d5xpX_KJYUU5JVgw&usqp=CAU",
+  },
+  {
+    img:
+      "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+  },
+  {
+    img: "https://i.redd.it/96izf0an4r231.jpg",
+  },
+  {
+    img:
+      "https://upload.wikimedia.org/wikipedia/en/a/a3/Official_cover_art_for_Bioshock_Infinite.jpg",
+  },
+  {
+    img:
+      "https://metro.co.uk/wp-content/uploads/2020/07/image-1687.jpg?quality=90&strip=all",
   },
 ];

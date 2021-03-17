@@ -31,6 +31,7 @@ export default function Header({
             />
           </ButtonContainer>
         </HeadersContainer>
+
         <HeadersImg src={gameImage} alt="" />
       </Headers>
     </>
@@ -48,7 +49,7 @@ const Headers = styled.div`
   p {
     color: white;
     margin: 15px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     max-width: 400px;
   }
 `;
@@ -67,6 +68,7 @@ const HeadersBtn = styled.button`
     transition: 0.5s ease-in-out;
     background-color: white;
     color: black;
+    border: 2px solid white;
   }
 `;
 
