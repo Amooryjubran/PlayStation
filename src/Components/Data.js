@@ -1,3 +1,10 @@
+import DeathStranding from "./Assests/DeathStranding.mp4";
+import RDR2 from "./Assests/RedDeadRedemption2.mp4";
+import GTAV from "./Assests/GTA5.mp4";
+import FallenJedi from "./Assests/fallenJedi.mp4";
+import Bioshock from "./Assests/Bioshock.mp4";
+import FarCry6 from "./Assests/FarCry6.mp4";
+
 export const GamesHeader = [
   {
     id: 1,
@@ -138,24 +145,30 @@ export const MustPlayGames = [
   {
     img:
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Death_Stranding.jpg/220px-Death_Stranding.jpg",
+    vid: `${DeathStranding}`,
   },
   {
     img:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2zW6qiumNky4S2Nzu91d5xpX_KJYUU5JVgw&usqp=CAU",
+    vid: `${RDR2}`,
   },
   {
     img:
       "https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png",
+    vid: `${GTAV}`,
   },
   {
     img: "https://i.redd.it/96izf0an4r231.jpg",
+    vid: `${FallenJedi}`,
   },
   {
     img:
       "https://upload.wikimedia.org/wikipedia/en/a/a3/Official_cover_art_for_Bioshock_Infinite.jpg",
+    vid: `${Bioshock}`,
   },
   {
     img:
       "https://metro.co.uk/wp-content/uploads/2020/07/image-1687.jpg?quality=90&strip=all",
+    vid: `${FarCry6}`,
   },
 ];

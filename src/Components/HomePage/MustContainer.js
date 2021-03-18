@@ -1,11 +1,20 @@
 import React from "react";
+import HoverVideoPlayer from "react-hover-video-player";
 import styled from "styled-components";
 import { MustSeeGames, MustPlayGames } from "../Data";
 
 export default function MustContainer() {
   const Games = MustSeeGames.map((game) => <img src={game.img} alt="Icons" />);
   const VideoGames = MustPlayGames.map((game) => (
-    <img src={game.img} alt="Icons" />
+    <HoverVideoPlayer
+      videoStyle={{
+        width: 190,
+        height: 300,
+      }}
+      videoSrc={game.vid}
+      pausedOverlay={<img src={game.img} alt="Icons" />}
+      loadingOverlay={<div />}
+    />
   ));
 
   return (
@@ -22,6 +31,10 @@ const Must = styled.div`
   max-width: 80%;
   margin: 0 auto;
   color: white;
+
+  @media (max-width: 1600px) {
+    max-width: 90%;
+  }
   h1 {
     margin-left: -15px;
     font-size: 1.2rem;
@@ -35,10 +48,10 @@ const Must = styled.div`
       max-width: 145px;
     }
     @media (max-width: 1600px) {
-      max-width: 160px;
+      max-width: 190px;
     }
     @media (min-width: 1620px) {
-      max-width: 200px;
+      max-width: 190px;
     }
   }
 `;
@@ -47,10 +60,7 @@ const MustSeeContainer = styled.div`
   display: flex;
   justify-content: space-between;
   img {
-    height: 100px;
-    @media (min-width: 1620px) {
-      height: 120px;
-    }
+    height: 120px;
   }
 `;
 const MustPlayContainer = styled.div`
@@ -58,9 +68,6 @@ const MustPlayContainer = styled.div`
   justify-content: space-between;
 
   img {
-    height: 200px;
-    @media (min-width: 1620px) {
-      height: 300px;
-    }
+    height: 300px;
   }
 `;
