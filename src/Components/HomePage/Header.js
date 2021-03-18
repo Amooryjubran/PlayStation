@@ -7,6 +7,7 @@ export default function Header({
   gameImage,
   img,
   popupMessage,
+  gameBtn,
 }) {
   const [showPopup, setShowPopup] = useState(false);
 
@@ -31,8 +32,10 @@ export default function Header({
             />
           </ButtonContainer>
         </HeadersContainer>
-
-        <HeadersImg src={gameImage} alt="" />
+        <HeadersImgContainer>
+          <HeadersImg src={gameImage} alt="" />
+          <HeadersImgBtn>{gameBtn}</HeadersImgBtn>
+        </HeadersImgContainer>
       </Headers>
     </>
   );
@@ -49,8 +52,15 @@ const Headers = styled.div`
   p {
     color: white;
     margin: 15px;
-    font-size: 1.2rem;
     max-width: 400px;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 1.3rem;
+  }
+  p {
+    font-weight: 400;
+    font-size: 1.1rem;
   }
 `;
 const HeadersBtn = styled.button`
@@ -61,6 +71,7 @@ const HeadersBtn = styled.button`
   cursor: pointer;
   border: none;
   border-radius: 30px;
+
   width: 150px;
   height: 40px;
   outline: none;
@@ -68,17 +79,16 @@ const HeadersBtn = styled.button`
     transition: 0.5s ease-in-out;
     background-color: white;
     color: black;
-    border: 2px solid white;
   }
 `;
 
 const HeadersImg = styled.img`
-  width: 100%;
   cursor: pointer;
   height: 250px;
   max-width: 250px;
   object-fit: cover;
 
+  box-shadow: -44px 8px 81px -12px rgba(255, 255, 255, 0.77);
   &:hover {
     border: 0.1px solid #fff;
     transition: 0.2s ease-in-out;
@@ -92,4 +102,29 @@ const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   float: left;
+`;
+
+const HeadersImgContainer = styled.div`
+  position: relative;
+  max-width: 100%;
+`;
+
+const HeadersImgBtn = styled.button`
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  text-align: center;
+  &:hover {
+    background-color: white;
+    color: black;
+  }
 `;

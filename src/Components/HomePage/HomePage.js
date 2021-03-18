@@ -14,6 +14,7 @@ export default function HomePage() {
     backgroundImage,
     img,
     popupMessage,
+    gameBtn,
   } = GamesHeader[index];
 
   return (
@@ -27,6 +28,7 @@ export default function HomePage() {
           gameImage={gameImage}
           img={img}
           popupMessage={popupMessage}
+          gameBtn={gameBtn}
         />
         <MustContainer />
       </HomeContainer>

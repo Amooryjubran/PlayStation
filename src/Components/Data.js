@@ -6,11 +6,12 @@ export const GamesHeader = [
     subTitle:
       " Five years after their dangerous journey across the post-pandemic United States, Ellie and Joel have settled down in Jackson, Wyoming.",
     gameImage:
-      "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/TLOU_P2_Box_Art_2.png/220px-TLOU_P2_Box_Art_2.png",
+      "https://henrilechatnoir.com/wp-content/uploads/2020/05/The-Last-Of-Us-2.png",
     backgroundImage:
       "https://images6.alphacoders.com/777/thumb-1920-777426.jpg",
     popupMessage:
       "The Last of Us Part II is a third-person action-adventure survival horror video game developed by Naughty Dog and published by Sony Interactive Entertainment.",
+    gameBtn: "Full Game",
   },
   {
     id: 2,
@@ -24,6 +25,7 @@ export const GamesHeader = [
     popupMessage:
       "Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed by Insomniac Games and published by Sony Interactive Entertainment ",
     backgroundImage: "https://wallpapercave.com/wp/wp7076891.png",
+    gameBtn: "Ultimate $79",
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ export const GamesHeader = [
       "https://www.psu.com/wp/wp-content/uploads/2020/10/demons-souls-remake-ps5-wallpapers-01.png",
     popupMessage:
       "From PlayStation Studios and Bluepoint Games comes a remake of the PlayStation classic, Demon’s Souls. Entirely rebuilt from the ground up and masterfully enhanced, this remake introduces the horrors of a fog-laden.",
+    gameBtn: "Deluxe $89",
   },
 
   {
@@ -54,6 +57,7 @@ export const GamesHeader = [
       "https://i.ibb.co/LvpFRCG/alcina-dimitrescu-resident-evil-village-uhdpaper-com-hd-7-3033.jpg",
     popupMessage:
       "Resident Evil Village is an upcoming survival horror game developed and published by Capcom. It will be the tenth major installment in the Resident Evil series, and the sequel to Resident Evil 7: Biohazard.",
+    gameBtn: "Pre-Order",
   },
 
   {
@@ -69,6 +73,7 @@ export const GamesHeader = [
       "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/02/BOCW_Season-2_Hero_X1_Wire_1920x1080.jpg?fit=1920%2C1080",
     popupMessage:
       "Call of Duty: Black Ops Cold War is a 2020 first-person shooter video game developed by Treyarch and Raven Software and published by Activision.",
+    gameBtn: "Full Game",
   },
 
   {
@@ -84,6 +89,7 @@ export const GamesHeader = [
       "https://www.psu.com/wp/wp-content/uploads/2018/04/god-of-war-theme.jpg",
     popupMessage:
       "From Santa Monica Studio and creative director Cory Barlog comes a new beginning for one of gaming’s most recognizable icons. Living as a man outside the shadow of the gods, Kratos must adapt to unfamiliar lands.",
+    gameBtn: "Discount $10",
   },
 
   {
@@ -94,10 +100,11 @@ export const GamesHeader = [
     subTitle:
       "Set three years after the events of Uncharted 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune-hunting behind. ",
     gameImage:
-      "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg",
+      "https://d2skuhm0vrry40.cloudfront.net/2015/articles/1/8/2/7/0/7/2/uncharted-4-walkthrough-1461829558725.jpg/EG11/resize/1200x-1/uncharted-4-walkthrough-1461829558725.jpg",
     backgroundImage: "https://wallpapercave.com/wp/wp3881739.jpg",
     popupMessage:
       "Several years after his last adventure, retired fortune hunter, Nathan Drake, is forced back into the world of thieves.",
+    gameBtn: "PS Plus",
   },
 ];
 
