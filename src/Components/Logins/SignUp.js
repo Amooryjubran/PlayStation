@@ -75,10 +75,14 @@ const Form = styled.form`
     color: white;
     padding: 15px;
     width: 100%;
-    border: 1 px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 2px;
     cursor: pointer;
     margin-top: 30px;
+    :hover {
+      background: white;
+      color: black;
+    }
   }
 `;
 

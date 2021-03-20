@@ -21,7 +21,7 @@ const LogIn = () => {
   };
   const { currentUser } = useContext(AuthContext);
   if (currentUser) {
-    return <Redirect to="/loggedin" />;
+    return <Redirect to="/account" />;
   }
   return (
     <Login>
@@ -94,10 +94,14 @@ const Form = styled.form`
     color: white;
     padding: 15px;
     width: 100%;
-    border: 1 px solid lightgrey;
+    border: 1px solid lightgrey;
     border-radius: 2px;
     cursor: pointer;
     margin-top: 30px;
+    :hover {
+      background: white;
+      color: black;
+    }
   }
 `;
 
@@ -109,7 +113,7 @@ const Middle = styled.div``;
 const Line = styled.div`
   float: none;
   margin: 50px auto 0 auto;
-  width: 0.1%;
+  width: 2%;
   background: white;
   height: 400px;
   text-align: center;
