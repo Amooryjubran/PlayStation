@@ -6,7 +6,7 @@ import Crash from "./Assests/Crash.jpg";
 import AddIcon from "@material-ui/icons/Add";
 import "../App.css";
 import { Link } from "react-router-dom";
-export default function LoginPage() {
+export default function Users() {
   return (
     <Login>
       <h1>Welcome Back To PlayStaion</h1>
@@ -14,13 +14,13 @@ export default function LoginPage() {
       <ControllerIcon />
       <div>
         <div>
-          <Link to="/Home">
+          <Link to="/signup">
             <AddIcon className="Icon" />
           </Link>
           <h2>Create User</h2>
         </div>
         <div>
-          <Link to="/Home">
+          <Link to="/login">
             <img src={Ellie} alt="" />
           </Link>
           <h2>Omar</h2>
@@ -29,7 +29,7 @@ export default function LoginPage() {
           <Link to="/Home">
             <img src={Crash} alt="" />
           </Link>
-          <h2>Dona</h2>
+          <h2>Guest</h2>
         </div>
       </div>
     </Login>

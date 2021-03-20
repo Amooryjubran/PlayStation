@@ -3,6 +3,7 @@ import styled from "styled-components";
 import SearchIcon from "@material-ui/icons/Search";
 import SettingsIcon from "@material-ui/icons/Settings";
 import Ellie from "../Assests/Ellie.jpg";
+import firebaseConfig from "../../firebase.js";
 
 export default function Navbar() {
   const currDate = new Date().toLocaleTimeString();
@@ -34,7 +35,11 @@ export default function Navbar() {
               <SettingsIcon />
             </li>
             <li>
-              <img src={Ellie} alt="" />
+              <img
+                onClick={() => firebaseConfig.auth().signOut()}
+                src={Ellie}
+                alt=""
+              />
             </li>
           </ul>
         </nav>
