@@ -13,7 +13,7 @@ export const AuthProvider = ({ children }) => {
         setCurrentUser(user);
         setLoading(false);
       });
-    });
+    }, 4000);
   }, []);
 
   if (loading) {
