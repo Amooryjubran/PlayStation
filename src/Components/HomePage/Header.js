@@ -47,6 +47,20 @@ const Headers = styled.div`
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  animation-name: animation-from-bottom;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: (300ms);
+  transform: translateY(5%);
+  opacity: 0;
+
+  @keyframes animation-from-bottom {
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 
   h1,
   p {
@@ -61,6 +75,11 @@ const Headers = styled.div`
   p {
     font-weight: 400;
     font-size: 1.1rem;
+  }
+
+  @media (max-width: 890px) {
+    flex-direction: column;
+    align-items: center;
   }
 `;
 const HeadersBtn = styled.button`
@@ -96,12 +115,20 @@ const HeadersImg = styled.img`
 `;
 const HeadersContainer = styled.div`
   align-self: center;
+
+  @media (max-width: 890px) {
+    text-align: center;
+  }
 `;
 
 const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   float: left;
+  @media (max-width: 890px) {
+    display: block;
+    float: inherit;
+  }
 `;
 
 const HeadersImgContainer = styled.div`

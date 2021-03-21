@@ -63,6 +63,7 @@ const Nav = styled.div`
     justify-content: center;
     gap: 2rem;
     list-style: none;
+    cursor: pointer;
   }
   img {
     border-radius: 50%;

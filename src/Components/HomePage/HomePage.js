@@ -41,21 +41,10 @@ const Home = styled.div`
   background-position: center;
   background-size: cover;
   height: 170vh;
-`;
 
-const HomeContainer = styled.div`
-  animation-name: animation-from-bottom;
-  animation-duration: 3s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: (300ms);
-  transform: translateY(5%);
-  opacity: 0;
-
-  @keyframes animation-from-bottom {
-    100% {
-      transform: translateY(0%);
-      opacity: 1;
-    }
+  @media (max-width: 890px) {
+    height: 200vh;
   }
 `;
+
+const HomeContainer = styled.div``;

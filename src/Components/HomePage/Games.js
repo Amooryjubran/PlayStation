@@ -34,6 +34,20 @@ export default function Games({ setIndex }) {
 
 const GamesIcons = styled.div`
   margin-top: 30px;
+  animation-name: animation-from-bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: (1ms);
+  transform: translateX(50%);
+  opacity: 0;
+
+  @keyframes animation-from-bottom {
+    100% {
+      transform: translateX(0%);
+      opacity: 1;
+    }
+  }
 
   .container {
     max-width: 80%;

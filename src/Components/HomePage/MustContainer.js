@@ -59,8 +59,21 @@ const Must = styled.div`
 const MustSeeContainer = styled.div`
   display: flex;
   justify-content: space-between;
+
   img {
     height: 120px;
+    @media (max-width: 1316px) {
+      margin: 5px;
+    }
+  }
+
+  @media (max-width: 1316px) {
+    overflow-x: scroll;
+    padding: 20px;
+    ::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
   }
 `;
 const MustPlayContainer = styled.div`
@@ -69,5 +82,14 @@ const MustPlayContainer = styled.div`
 
   img {
     height: 300px;
+  }
+
+  @media (max-width: 1316px) {
+    overflow-x: scroll;
+    padding: 20px;
+    ::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
   }
 `;
