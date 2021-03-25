@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { GamesHeader } from "../Data";
 import NearMeIcon from "@material-ui/icons/NearMe";
-
+import { Link } from "react-router-dom";
 export default function Games({ setIndex }) {
   const GameImages = GamesHeader.map((game, index) => (
     <>
@@ -25,6 +25,12 @@ export default function Games({ setIndex }) {
               <Arrow />
             </div>
             {GameImages}
+            <Link to="/store">
+              <PStoreLogo
+                src="https://gmedia.playstation.com/is/image/SIEPDC/ps-store-bag-22jun20?$native--t$"
+                alt=""
+              />
+            </Link>
           </GameNav>
         </div>
       </GamesIcons>
@@ -98,6 +104,19 @@ const GameLogos = styled.img`
   width: 100px;
   object-fit: contain;
   height: 100px;
+`;
+
+const PStoreLogo = styled.img`
+  width: 100px;
+  height: 100px;
+  border-radius: 20%;
+  cursor: pointer;
+  background-color: rgb(76, 72, 72, 0.5);
+  border: 0px solid #576170;
+  &:hover {
+    border: 2px solid #576170;
+    background-color: gray;
+  }
 `;
 
 const Arrow = styled(NearMeIcon)({

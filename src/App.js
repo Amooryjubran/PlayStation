@@ -9,6 +9,7 @@ import Home from "./Components/Logins/Home";
 import Dashboard from "./Components/Logins/Dashboard";
 import LogIn from "./Components/Logins/LogIn";
 import SignUp from "./Components/Logins/SignUp";
+import Pstore from "./Components/PStore/PStore";
 function App() {
   return (
     <>
@@ -20,6 +21,7 @@ function App() {
           <Route path="/loggedin" component={Dashboard} />
           <Route path="/login" component={LogIn} />
           <Route path="/signup" component={SignUp} />
+          <Route path="/store" component={Pstore} />
         </Switch>
       </AuthProvider>
     </>
