@@ -172,3 +172,24 @@ export const MustPlayGames = [
     vid: `${FarCry6}`,
   },
 ];
+
+export const PStoreNavbar = [
+  {
+    nav: "Games",
+  },
+  {
+    nav: "Hardware",
+  },
+  {
+    nav: "Searvices",
+  },
+  {
+    nav: "News",
+  },
+  {
+    nav: "Shop",
+  },
+  {
+    nav: "Support",
+  },
+];
