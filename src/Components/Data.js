@@ -4,6 +4,11 @@ import GTAV from "./Assests/GTA5.mp4";
 import FallenJedi from "./Assests/fallenJedi.mp4";
 import Bioshock from "./Assests/Bioshock.mp4";
 import FarCry6 from "./Assests/FarCry6.mp4";
+import SpiderMan from "./Assests/Spiderman.PNG";
+import FinalFantasy from "./Assests/FinalFantasy.PNG";
+import Persona from "./Assests/Persona.PNG";
+import Astro from "./Assests/Astro.png";
+import PSNOW from "./Assests/PSNOW.png";
 
 export const GamesHeader = [
   {
@@ -173,23 +178,52 @@ export const MustPlayGames = [
   },
 ];
 
-export const PStoreNavbar = [
-  {
-    nav: "Games",
-  },
-  {
-    nav: "Hardware",
-  },
-  {
-    nav: "Searvices",
-  },
-  {
-    nav: "News",
-  },
-  {
-    nav: "Shop",
-  },
-  {
-    nav: "Support",
-  },
-];
+export const PStoreContainer = {
+  PStoreNavbar: [
+    {
+      nav: "Games",
+    },
+    {
+      nav: "Hardware",
+    },
+    {
+      nav: "Searvices",
+    },
+    {
+      nav: "News",
+    },
+    {
+      nav: "Shop",
+    },
+    {
+      nav: "Support",
+    },
+  ],
+  PStoreHeadrsNav: [
+    {
+      id: 1,
+      nav: "Latest",
+      img: `${Astro}`,
+    },
+    {
+      id: 2,
+      nav: "Collections",
+      img: `${Persona}`,
+    },
+    {
+      id: 3,
+      nav: "Deals",
+      img: `${FinalFantasy}`,
+    },
+    {
+      id: 4,
+      nav: "PS5",
+      img: `${SpiderMan}`,
+    },
+    {
+      id: 5,
+      nav: "Subscriptions",
+      img: `${PSNOW}`,
+    },
+  ],
+};

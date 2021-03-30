@@ -4,10 +4,10 @@ import Logo from "../Assests/Logo.png";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import SearchIcon from "@material-ui/icons/Search";
 import { Link } from "react-router-dom";
-import { PStoreNavbar } from "../Data";
+import { PStoreContainer } from "../Data";
 
 export default function Navbar() {
-  const NavbarMap = PStoreNavbar.map((nav) => (
+  const NavbarMap = PStoreContainer.PStoreNavbar.map((nav) => (
     <>
       <li>
         {nav.nav} <Arrow />
@@ -32,7 +32,7 @@ export default function Navbar() {
             <Arrow />
           </li>
           <li>
-            <Link to="/">
+            <Link to="/login">
               <button>Sign In</button>
             </Link>
           </li>
