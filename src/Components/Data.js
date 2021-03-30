@@ -226,4 +226,19 @@ export const PStoreContainer = {
       img: `${PSNOW}`,
     },
   ],
+
+  PSTrending: [
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/116/960/c181e92d-55db-46e5-8bc1-3cde9fc3badf.png?w=440&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/110/431/3f951918-5a36-4bd3-9f9c-e1eec286f94f.jpg?w=440&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/117/372/042b097b-26c2-4dc5-944a-fdd97e81d37d.png?w=440&thumb=false",
+    },
+  ],
 };

@@ -21,7 +21,9 @@ const HeadersContainer = styled.div`
   display: flex;
   margin-top: -50px;
   color: black;
-  background: rgba(255, 255, 255, 0.8);
+  height: 23vh;
+  box-shadow: 2px 4px 10px lightgray;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), #fff 4.5rem);
 `;
 
 const HeadersTop = styled.div`
@@ -32,7 +34,7 @@ const HeadersTop = styled.div`
   }
 `;
 const HeadersHero = styled.div`
-  align-self: flex-end;
+  align-self: center;
 
   button {
     background-color: #0070d1;
