@@ -5,6 +5,7 @@ import HeadersBottom from "./HeadersBottom";
 import Navbar from "./Navbar";
 import Topbar from "./Topbar";
 import TopDeals from "./TopDeals";
+import NewGames from "./NewGames";
 
 export default function PStore() {
   return (
@@ -14,6 +15,7 @@ export default function PStore() {
       <Header />
       <HeadersBottom />
       <TopDeals />
+      <NewGames />
     </>
   );
 }

@@ -241,4 +241,55 @@ export const PStoreContainer = {
         "https://image.api.playstation.com/pr/bam-art/117/372/042b097b-26c2-4dc5-944a-fdd97e81d37d.png?w=440&thumb=false",
     },
   ],
+
+  PSNewGames: [
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202102/2413/NKQzvFPclCCHDfMa5pvUF6aD.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202102/2419/asYXG3aPJx13PdFjXbmC408F.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202103/0221/lRjosIJ7zGrfClMQNIlievwS.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/117/787/0fa6409a-4031-4be4-8f50-2d16a7d1eb95.jpg?w=440&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/118/206/7577379f-55ef-4569-a6f2-e1d6cd104080.jpg?w=440&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202102/1214/gcMVHVG82HnDo0A6WHl6WR6H.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202102/2307/kQzDCY5RCrSXCeeFjPGUzkGI.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202103/0410/GKT3pw7UrRCWNOujHj38aIjv.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202101/2106/Ld68GZEWdjhRWw8B8WuYQiEU.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202010/0513/MYXPEsm7SVKszWWAHhcNfta6.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202103/3015/OsMKxgXaRihOvxyP3GdbuDwQ.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202101/2808/WBDHlNgYU0QZmzK6WNKe5oRS.png?w=180&thumb=false",
+    },
+  ],
 };
