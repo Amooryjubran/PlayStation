@@ -285,11 +285,62 @@ export const PStoreContainer = {
     },
     {
       img:
+        "https://image.api.playstation.com/pr/bam-art/111/744/95a76fbb-15a4-4dca-b0b3-71abfd830289.jpg?w=440&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/pr/bam-art/111/744/3cff7c93-191f-42a4-aa9d-160f5b9406c0.jpg?w=440&thumb=false",
+    },
+  ],
+
+  PSGamesTrending: [
+    {
+      img:
         "https://image.api.playstation.com/vulcan/img/rnd/202103/3015/OsMKxgXaRihOvxyP3GdbuDwQ.png?w=180&thumb=false",
     },
     {
       img:
-        "https://image.api.playstation.com/vulcan/img/rnd/202101/2808/WBDHlNgYU0QZmzK6WNKe5oRS.png?w=180&thumb=false",
+        "https://image.api.playstation.com/vulcan/ap/rnd/202011/2518/irfTwgBVsXiLhmMuEEri4t5h.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202011/1021/X3WIAh63yKhRRiMohLoJMeQu.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202011/1204/wYL4v2r8uMQFvVTJlfuj8ICk.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202008/1803/UIULUSArKlniav8B2FjWWXYo.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202011/0713/WSZqsrnejjt85wYmUqeBQvMQ.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/cfn/11307XlqDFlHmHWGjBPndSappCDTnE9OmnP2P-dSzcvLX9i0pvH_okJOl6dP1AnZefxthD-2k3RrsdzYU_BqUy9K5_sv-Tnx.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202010/2618/w48z6bzefZPrRcJHc7L8SO66.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/niMUubpU9y1PxNvYmDfb8QFD.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/cdn/UP0700/CUSA05972_00/4yfeeKKfJdD5WzDQsoiM3xrcqPlpDLm7.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/img/rnd/202009/3008/fng5HuTeBSFTJuPPP9G8byKQ.png?w=180&thumb=false",
+    },
+    {
+      img:
+        "https://image.api.playstation.com/vulcan/ap/rnd/202010/0205/dyvo9eGUf7WTZx49eTpQyDuL.png?w=180&thumb=false",
     },
   ],
 };
