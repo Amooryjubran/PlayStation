@@ -5,6 +5,7 @@ import Topbar from "./Topbar";
 import TopDeals from "./TopDeals";
 import NewGames from "./NewGames";
 import TrendingGames from "./TrendingGames";
+import Footer from "./Footer";
 
 export default function PStore() {
   return (
@@ -16,6 +17,7 @@ export default function PStore() {
       <TopDeals />
       <NewGames />
       <TrendingGames />
+      <Footer />
     </>
   );
 }
